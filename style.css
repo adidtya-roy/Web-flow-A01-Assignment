@@ -1,0 +1,410 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Satoshi', sans-serif;
+    background-color: #ecf4f8;
+}
+
+/* this is the 'header' part design */
+.head-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Assets/Hero-bg.png);
+    
+}
+
+.head-container nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.head-container nav span{
+    color: #4E47FF;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.head-container nav button{
+    background-color: #4E47FF;
+    color: white;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.head-container nav button:hover{
+    background-color: rgb(240, 240, 7);
+    color: black;
+  
+}
+
+.head-container .head-min-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.head-container .head-min-part h1{
+    width: 70%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.head-container .head-min-part button{
+    background-color: #4E47FF;
+    color: white;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;    
+}
+
+.head-container .head-min-part button:hover{
+   background-color: rgb(240, 240, 7);
+   color: black;
+}
+
+/* this is the 'See It in Action' part design */
+.action-part{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 50px;
+}
+
+.action-part .action{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0px;
+
+}
+
+.action-part .action .action-text-part{
+    width: 30%;
+}
+
+.action-part .action .action-text-part h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.action-part .action .action-text-part p{
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(136, 133, 133);
+    line-height: 20px;
+}
+
+.action-part .action .action-text-part button{
+    background-color: #4E47FF;
+    color: white;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;    
+}
+
+.action-part .action .action-text-part button:hover{
+    background-color: rgb(240, 240, 7);
+    color: black;
+}
+
+.action-part .action .action-img-part img{
+    border: none;
+    border-radius: 50px;
+}
+
+/*  Productive part design*/
+.Productive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+   
+}
+
+
+.Productive .Productive-container{
+    background-color: #4d47ff2d;
+    padding: 30px 100px;
+}
+.Productive .Productive-container .title{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.Productive .Productive-container .users{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.Productive .Productive-container .users div{
+    line-height: 0.5px;
+}
+.Productive .Productive-container .users div h2{
+    color: #4E47FF;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.Productive .Productive-container .users div p{
+    color: #9b9b9b;
+    font-size: small;
+    font-weight: 700;
+}
+
+/* this is the "user part " design*/
+.users-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.users-container .users{
+    text-align: center;
+    width: 50%;
+}
+
+.users-container .users .users-text h3{
+    font-size: 40px;
+    font-weight: 800;
+ 
+}
+
+.users-container .users .main-profile{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.users-container .users .main-profile .users-part{
+    width: 25%;
+    padding: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgb(221, 221, 221) 5px 5px 20px;
+    line-height: 10px;
+    
+    background-color: white;
+}
+
+.users-container .users .main-profile .users-part .designers .star{
+    color: gold;
+}
+
+.users-container .users .main-profile .users-part .designers h5{
+    font-size: 20px;
+    font-weight: 900;
+ 
+}
+
+.users-container .users .main-profile .users-part .designers p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.users-container .users .main-profile .users-part .designers .profile{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.users-container .users .main-profile .users-part .designers .profile .img img{
+    border-radius: 50%;
+    padding-right: 20px;
+    
+}
+
+.users-container .users .main-profile .users-part .designers .profile .document p{
+    line-height: 5px;
+    font-size: small;
+    font-weight: 400;
+}
+
+.users-container .users .main-profile .users-part .designers .profile .document .date{
+    color: #b3b1b1;
+}
+
+/* this is the"focus-container"  part tesign */
+.focus-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.focus-container .main-part{
+    padding: 50px 100px;
+    margin: 50px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgb(221, 221, 221) 5px 5px 20px;
+    background-color: white;
+}
+
+.focus-container .main-part .text-container{
+    text-align: center;
+    line-height: 20px;
+    margin: 20px 0px;
+}
+
+.focus-container .main-part .text-container h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.focus-container .main-part .text-container p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #b3b1b1;
+}
+
+.focus-container .main-part .text-container button{
+    background-color: #4E47FF;
+    color: white;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px; 
+}
+
+.focus-container .main-part .text-container button:hover{
+    background-color: rgb(240, 240, 7);
+    color: black;
+}
+
+.focus-container .main-part .img-container img{
+    border-radius: 50px;
+    margin: 20px;
+}
+
+/* this is the form part design */
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.form-container .form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin: 50px;
+
+}
+
+.form-container .form .form-text h1{
+   width: 70%;
+   font-size: 70px;
+   font-weight: 900;
+}
+
+.form-container .form .form-input p{
+   font-size: small;
+}
+
+.form-container .form .form-input input{
+   width: 497px;
+   height: 70;
+   padding: 32px 20px;
+   border: 0.5px solid gray;
+   border-radius: 0px;
+   box-sizing: border-box;
+   
+} 
+
+.form-container .form .form-input .message{
+   width: 497px;
+   height: 135px;
+   padding: 32px 20px;
+   
+} 
+
+.form-container .form .form-input .btn button{
+    background-color: #4E47FF;
+    color: white;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 100px;
+    margin: 50px 0px;
+    border: none;
+    border-radius: 10px; 
+    width: 497px;
+}
+
+.form-container .form .form-input .btn button:hover{
+   background-color: rgb(240, 240, 7);
+   color: black;
+}
+
+/* this is the footer design */
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    padding: 100px 0px;
+    background-color: white;
+}
+
+.footer-container h1{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.footer-container p{
+    width: 25%;
+    font-size: 15px;
+    font-weight: 400;
+    color: #9b9b9b;
+    text-align: center;
+}
+
+.footer-container ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   
+}
+
+.footer-container ul li{
+    list-style: none;
+}
+
+.footer-container ul li a{
+    text-decoration: none;
+    color: #9b9b9b;
+    font-size: small;
+    font-weight: 800;
+}
