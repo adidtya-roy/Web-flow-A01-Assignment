@@ -9,5 +9,5 @@ It includes a basic homepage (`index.html`) styled using an external CSS file (`
 - Image assets for banners, logos, or content
 - Beginner-friendly structure
 
-## Folder Structure
+
 
